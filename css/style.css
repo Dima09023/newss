@@ -1,0 +1,54 @@
+html {
+    background-color: rgb(200, 200, 200);
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    font-size: 60px;
+    color:rgb(250, 245, 245)
+}
+
+header {
+    background: url(../images/neboskreb1.jpg);
+    width: 1500px;
+    height: 740px;
+    margin: 1px;
+    padding: 1px;
+    border: 1px;
+}
+
+.navigation {
+    text-decoration: none;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+
+}
+
+#text {
+    padding: 10px;
+    border: 1px solid black
+}
+footer {
+    padding-top: 20px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+footer .links {
+    margin-bottom: 50px;
+}
+footer .links > a {
+    color:rgb(0, 0, 0);
+    padding: 25px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: uppercase;
+}
+.copyright {
+    color:rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+}

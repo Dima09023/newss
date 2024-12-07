@@ -28,7 +28,7 @@ header {
 
 }
 
-#text {
+.text {
     padding: 10px;
     border: 1px solid black
 }
